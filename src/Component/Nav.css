@@ -1,0 +1,145 @@
+.upnavcontainer{
+  background-color:rgb(24, 24, 24);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    z-index: 50;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid orange;
+    background-image: linear-gradient(to left, #7068F4, #FF64B4, #FFD94A);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 0.5px;
+}
+
+
+#logo{
+    width: 100px;
+}
+
+
+#searchnav input{
+     width: 50vw;
+     height: 2.2rem;
+     border: 1px solid white;
+     border-radius: 5rem;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-left: 4rem;
+}
+
+
+#searchnav{
+    display: flex;
+}
+
+
+#searchnav a {
+   
+     margin-left: 2px;
+     margin-top: 7px;
+     color: white;
+}
+
+.appdownload{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.LoginBtn{
+    margin: 10px;
+    padding: 7px;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media (max-width: 857px) {
+    .upnavcontainer{
+      
+        height: 8vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #searchnav{
+        display: none;
+    }
+    #logo{
+        width: 80px;
+    }
+
+    #appmenycss{
+        margin-left: auto;
+    }
+
+
+}
+
+
+@media (max-width: 480px){
+
+    .upnavcontainer{
+       
+        height: max-content;
+        display: flex;
+        align-items: center;
+    }
+    .LoginBtn{
+        margin: 3px;
+        padding: 2px;
+        width: 5rem;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.appdownload{
+    display: flex;
+    margin-left: 1rem;
+}
+}
+
+
+
+@media (max-width: 1180px) {
+    #searchnav input{
+        width: 30vw;
+        height: 1.8rem;
+        border: 1px solid white;
+        border-radius: 5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 4rem;
+   }
+
+   #searchnav a {
+   margin-left: 2px;
+   margin-top: 3px;
+ }
+
+
+}
+
+   
+
+
+  
