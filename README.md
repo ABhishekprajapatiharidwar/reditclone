@@ -8,10 +8,12 @@ Users can create an account and securely log in to the platform, with signup dat
 + **JSON Integration:** The project utilizes JSON data for efficient storage and management of user information, post details, and other relevant data.
 + **Firebase Realtime Database:** User data and posts are stored and fetched using Firebase Realtime Database, enabling real-time synchronization and seamless access across devices.
 + **Content Filtering and Moderation:** Votely implements a robust content filtering and moderation system to prevent the posting of inappropriate or offensive content. If a user attempts to submit a post containing sexually explicit content or abusive words, the system detects and flags it, preventing the post from being published. This feature ensures a safe and respectful environment for all users, promoting positive engagement and discouraging harmful behavior.
-+**Admin Access and User Management:**  Votely grants admins exclusive access to view user details like email and username, ensuring efficient user management. Sign-up prevention for the reserved "admin" username enhances security and prevents impersonation.
+  
++ **Admin Access and User Management:**  Votely grants admins exclusive access to view user details like email and username, ensuring efficient user management. Sign-up prevention for the reserved "admin" username enhances security and prevents impersonation.
 +**
 Username Validation and Alert Feature:** Votely prevents duplicate usernames during signup and displays an alert if a user attempts to sign in without a registered username, ensuring username uniqueness and providing informative alerts for a smooth user experience.
 + **Superb UI with Material-UI:** The user interface is designed with a superb color combination, incorporating Material-UI, a popular React UI framework known for its sleek and responsive design components.
++ **Offline Mode Notification:** Notifies users of their offline status and guides them to connect to the internet for full website functionality.
 + **Voting System:** Users can engage in the community by voting on posts, expressing their opinion and influencing post popularity.
 + **Image Preview and Upload:** During post creation, users have the option to preview images and upload them, enhancing the visual aspect of their posts.
 
