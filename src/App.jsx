@@ -7,6 +7,7 @@ import Login from './login';
 import { createContext } from 'react';
 import Useragri from './userrightagri';
 import Admin from './admin';
+import OnlineStatus from './onlinestatus';
 
 
 
@@ -53,7 +54,7 @@ useEffect(()=>{
         <h1> {loginshow}</h1>
 
         <Nav count={count} loginshow={loginshow} />
- 
+          <OnlineStatus/>
         <div className='leftSlider'>
           <Leftslider />
           <Rightsection />
