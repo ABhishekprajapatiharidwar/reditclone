@@ -1,11 +1,16 @@
-# Reddit Clone
-Reddit Clone is an open-source project inspired by Reddit, designed to provide developers with a foundation for creating their own Reddit-like platform. It utilizes Material-UI, a popular React UI framework, to create a visually appealing and responsive user interface. With features such as user signup, login, JSON integration for data management, Firebase Realtime Database for storage, and the power of Material-UI, Redit Clone offers a seamless and delightful user experience. Join the community and explore the possibilities of building your own Reddit-inspired platform with Redit Clone. Please note that Redit Clone is not affiliated with Reddit.
+# Votely - A Secure and Engaging Community Platform
+Votely is an open-source project that aims to provide developers with a foundation for building their own community platform, inspired by the concept of Reddit. It incorporates cutting-edge technologies and features to create a secure and engaging user experience. Powered by React and utilizing the Material-UI framework, Votely offers a visually appealing and responsive user interface.
 
-## Features of Reddit-Clone
-+ **Signup and Login:** Users can create an account and securely log in to the platform, utilizing local storage to store user credentials and provide seamless authentication.
+## Features of Votely
++ **Signup and Login:** 
+Users can create an account and securely log in to the platform, with signup data securely stored on the Firebase Realtime Database. This enables seamless authentication, allowing users to log in using their stored credentials from any device.
 + **Post Viewing:** Users can explore a collection of posts, showcasing valuable information, discussions, and user interactions.
 + **JSON Integration:** The project utilizes JSON data for efficient storage and management of user information, post details, and other relevant data.
 + **Firebase Realtime Database:** User data and posts are stored and fetched using Firebase Realtime Database, enabling real-time synchronization and seamless access across devices.
++ **Content Filtering and Moderation:** Votely implements a robust content filtering and moderation system to prevent the posting of inappropriate or offensive content. If a user attempts to submit a post containing sexually explicit content or abusive words, the system detects and flags it, preventing the post from being published. This feature ensures a safe and respectful environment for all users, promoting positive engagement and discouraging harmful behavior.
++**Admin Access and User Management:**  Votely grants admins exclusive access to view user details like email and username, ensuring efficient user management. Sign-up prevention for the reserved "admin" username enhances security and prevents impersonation.
++**
+Username Validation and Alert Feature:** Votely prevents duplicate usernames during signup and displays an alert if a user attempts to sign in without a registered username, ensuring username uniqueness and providing informative alerts for a smooth user experience.
 + **Superb UI with Material-UI:** The user interface is designed with a superb color combination, incorporating Material-UI, a popular React UI framework known for its sleek and responsive design components.
 + **Voting System:** Users can engage in the community by voting on posts, expressing their opinion and influencing post popularity.
 + **Image Preview and Upload:** During post creation, users have the option to preview images and upload them, enhancing the visual aspect of their posts.
@@ -18,18 +23,18 @@ Reddit Clone is an open-source project inspired by Reddit, designed to provide d
 + JavaScript
 
 ## Getting Started
-Thank you for choosing Redit Clone! To get started with the project, follow the instructions below.
+Thank you for choosing Votely! To get started with the project, follow the instructions below.
 
 **Usage:**
-1. Visit the Redit Clone website: https://rediitclone.netlify.app/
-2. Join Reddit:
+1. Visit the Redit Clone website: https://votly.netlify.app
+2. Join Votely:
    
-   (a) Click on the "Join Reddit" option on the Redit Clone homepage.
+   (a) Click on the "Join Votely" option on the Votely homepage.
    
    (b) Fill in the required details to create a new account.
    
 3. Log in:
-   Once you have joined Reddit, click on the "Log In" option on the Redit Clone homepage.
+   Once you have joined Votely, click on the "Log In" option on the Votely homepage.
    Enter your registered email and password to log in to your account.
 
 6. Explore posts:
