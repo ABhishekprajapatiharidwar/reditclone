@@ -13,6 +13,7 @@ Users can create an account and securely log in to the platform, with signup dat
 +**
 Username Validation and Alert Feature:** Votely prevents duplicate usernames during signup and displays an alert if a user attempts to sign in without a registered username, ensuring username uniqueness and providing informative alerts for a smooth user experience.
 + **Superb UI with Material-UI:** The user interface is designed with a superb color combination, incorporating Material-UI, a popular React UI framework known for its sleek and responsive design components.
++ **Filter Data According to User-Clicked Category:** users can easily sort and view data based on their selected categories, enhancing their browsing experience on the Votely website.
 + **Offline Mode Notification:** Notifies users of their offline status and guides them to connect to the internet for full website functionality.
 + **Voting System:** Users can engage in the community by voting on posts, expressing their opinion and influencing post popularity.
 + **Image Preview and Upload:** During post creation, users have the option to preview images and upload them, enhancing the visual aspect of their posts.
