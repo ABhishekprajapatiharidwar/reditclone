@@ -1,0 +1,33 @@
+.closingbtn p {
+  color: yellow;
+}
+
+#terms a {
+  color: #7068f4;
+  text-decoration: none;
+}
+
+#signupbtn {
+  margin: 0.4rem;
+  height: 2rem;
+  width: 5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #7068f4, #ff64b4, #ffd94a);
+  color: white;
+}
+
+#signupbtn:hover {
+  background-image: linear-gradient(to right, #534aff, #ff41a3, #ffd436);
+}
+
+.signupbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alreadyac {
+  color: #ff64b4;
+  text-decoration: none;
+}

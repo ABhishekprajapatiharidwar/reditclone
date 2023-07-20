@@ -1,0 +1,74 @@
+.write {
+  height: max-content;
+  border-radius: 10px;
+}
+
+.writedetail textarea {
+  resize: none; /* Disables the resizing handle */
+  overflow: hidden; /* Hides the scrollbars */
+  height: 300px; /* Sets the initial height */
+  width: 50vw;
+  padding: 1rem;
+}
+
+.writedetail {
+  display: flex;
+  flex-direction: column;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#details input {
+  border-radius: 3px;
+  width: 40vw;
+  padding: 1px;
+}
+
+#details textarea {
+  border-radius: 3px;
+  width: 40vw;
+}
+
+#title {
+  width: 59%;
+  margin: 0.5rem;
+}
+
+#areatext {
+  height: max-content;
+  margin-bottom: 0.5rem;
+}
+
+.btngroupbtn {
+  width: 7rem;
+  margin: 0.5rem;
+  height: 2rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+#postbtn {
+  background-color: #493fff;
+}
+
+#postbtn:hover {
+  background-color: #fe359d;
+}
+
+#draftbtn {
+  background-color: rgb(114, 114, 114);
+}
+
+#draftbtn:hover {
+  background-color: rgb(74, 74, 74);
+}
+
+#preview {
+  max-width: 250px;
+}

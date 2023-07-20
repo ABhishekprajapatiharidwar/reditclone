@@ -1,0 +1,114 @@
+.authentication {
+  background-color: rgb(30, 30, 30);
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  overflow: hidden;
+}
+
+.containerauth {
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(70, 70, 70, 0.727);
+  position: absolute;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.authenticationvisiblity {
+  visibility: hidden;
+}
+
+.closebtn {
+  padding: 0.2rem;
+}
+
+.closingbtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.qrdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#qr {
+  height: 200px;
+  width: 200px;
+  background-image: url("../assets/Qr.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.closing {
+  display: none;
+}
+
+.loginsection {
+  height: 2in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+#loginbtn {
+  color: white;
+  background-image: linear-gradient(to right, #7068f4, #ff64b4, #ffd94a);
+  height: 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+#loginbtn:hover {
+  background-image: linear-gradient(to right, #534aff, #ff41a3, #ffd436);
+}
+
+.foregtuser {
+  display: flex;
+}
+
+.foregtuser a {
+  color: rgb(185, 185, 185);
+  margin: auto;
+  text-decoration: none;
+}
+
+.foregtuser a:hover {
+  color: #ff64b4;
+}
+
+#wrongpass {
+  color: rgb(255, 0, 0);
+}
+
+#login {
+  justify-self: flex-end;
+}
+
+@media (max-width: 480px) {
+  #qr {
+    height: 100px;
+    width: 100px;
+    background-image: url("./assets/Qr.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+}
