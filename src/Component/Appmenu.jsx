@@ -9,6 +9,8 @@ import Apps from "@mui/icons-material/Apps";
 import Login from "./login";
 import { useContext } from "react";
 import { UserContext } from "../App";
+import { Link } from "react-router-dom";
+
 
 export default function AppsMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -70,7 +72,8 @@ export default function AppsMenu() {
           sx={{ gridColumn: "1 / span 3" }}
         >
           <ListItemDecorator>
-            <Avatar
+          < Link to="/working">
+            <Avatar 
               sx={{
                 backgroundImage:
                   "linear-gradient(to right, #7068F4, #FF64B4, #FFD94A);",
@@ -80,17 +83,21 @@ export default function AppsMenu() {
                 ? usernamef.slice(0, 1) || usernamelocally.slice(0, 1)
                 : "U"}
             </Avatar>
+            </Link>
           </ListItemDecorator>
           {islogin ? usernamef || usernamelocally : "User"}
         </MenuItem>
 
         <MenuItem orientation="vertical" onClick={handleClose}>
+        <Link Link to="/working">
           <ListItemDecorator>
             <Avatar>M</Avatar>
           </ListItemDecorator>
+          </Link>
           More
         </MenuItem>
         <MenuItem orientation="vertical" onClick={handleClose}>
+        <Link Link to="/working">
           <ListItemDecorator
             onClick={() => {
               return <Login />;
@@ -98,12 +105,15 @@ export default function AppsMenu() {
           >
             <Avatar>L</Avatar>
           </ListItemDecorator>
+          </Link>
           Login
         </MenuItem>
         <MenuItem orientation="vertical" onClick={handleClose}>
+        <Link Link to="/working">
           <ListItemDecorator>
             <Avatar>S</Avatar>
           </ListItemDecorator>
+          </Link>
           SignUp
         </MenuItem>
       </Menu>

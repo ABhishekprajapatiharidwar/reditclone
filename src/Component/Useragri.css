@@ -43,6 +43,8 @@
   margin: 1rem 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: rgb(189, 189, 189);
   padding: 0.5rem, 0.5rem, 0.5rem, 0.5rem;
@@ -97,6 +99,18 @@
 }
 .reddit_clone-section_right_footer p a {
   color: rgb(0, 4, 255);
+}
+
+#createcomunitybtn{
+background-color: #493fff;
+
+padding: 0.3rem;
+padding-left: 5.5rem;
+padding-right: 5.5rem;
+border-radius: 1rem;
+color: white;
+text-decoration: none;
+margin-bottom: 1rem;
 }
 
 @media (max-width: 1042px) {

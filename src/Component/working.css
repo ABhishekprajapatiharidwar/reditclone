@@ -1,0 +1,31 @@
+.maintenance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2e3840;
+    font-family: Arial, sans-serif;
+}
+ 
+.maintenance-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+h1 {
+    font-size: 28px;
+    
+} 
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.maintenance-content img{
+    max-width: 250px;
+}
